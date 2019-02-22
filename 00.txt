@@ -1,0 +1,7 @@
+What other email fields can I pre-fill?
+As mentioned earlier you can prefill:
+
+the subject ( subject= )
+the body text ( body= )
+the CC (carbon copy) field ( cc= )
+the BCC (blind carbon copy) field ( bcc= )

@@ -1,0 +1,60 @@
+<!-- Created by Omar Khalil Bakhsh -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Store</title>
+</head>
+<body>
+
+
+<h3 >Online store </h3>
+
+<form>
+  <input type="radio" onclick="typemeat()" name="m" value="meat" checked> meat<br>
+  <input onclick="typechkn()" type="radio"  name="c" value="chikn" on> chikn<br>
+   
+</form>
+<br/>
+
+
+
+<button type=>
+	
+    <a id="addTarget" onclick="addToKart()" href="mailto:weeb.dd@gmail.com?subject=omar&body=">send the order </a>
+
+
+</button>
+
+<div id="myText" value="qq"></div>
+
+
+
+    <script>
+
+ function typemeat(){
+
+        document.getElementById("myText").value = "meat";
+
+        }
+function typechkn(){
+
+
+ document.getElementById("myText").value = "chkn";
+
+
+  }
+        function addToKart(){
+
+     
+        	addTarget.href = "mailto:weeb.dd@gmail.com?subject=omar&body="+myText.value;
+        
+        
+        }
+
+
+       
+    </script>
+
+</body>
+</html>
